@@ -1,0 +1,81 @@
+.sidebar {
+  width: 200px;
+  flex: 0 0 200px;
+  transition: all .3s ease-in-out;
+  transform: translateX(0);
+}
+.nav {
+    .nav-item {
+        font-size: 14px;
+        font-weight: 600;
+        border-left: 3px solid transparent;
+        .nav-link,
+        .nav-link-icons {
+            color: $gray-500;
+        }
+        &:active,
+        &:hover,
+        &.active {
+            border-color: $primary;
+            .nav-link,
+            .nav-link-icons {
+                color: $primary;
+            }
+        }
+    }
+}
+.figure{
+    position: relative;
+    .fa-times{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+}
+.g-drive{
+    width: 20px;
+    img{
+        width: 100%;
+    }
+}
+.dropbox{
+    width: 20px;
+    img{
+        width: 100%;
+    }
+}
+.office{
+    width: 20px;
+    img{
+        width: 100%;
+    }
+}
+ul{
+    li{
+        white-space: nowrap;
+    }
+}
+.connected-apps{
+    white-space: nowrap;
+}
+.main-menu{
+    white-space: nowrap;
+}
+.right-sidebar{
+    width: 300px;
+    transition: all .5s ease-in-out;
+}
+@include media-breakpoint-down(md) {
+    .sidebar{
+        position: absolute;
+        left: -100%;
+        z-index: 100;
+    }
+}
+@include media-breakpoint-down(md) {
+    .right-sidebar{
+        position: absolute;
+        right: -100%;
+        z-index: 100;
+    }
+}

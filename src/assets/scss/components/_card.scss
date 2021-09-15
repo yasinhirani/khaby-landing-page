@@ -1,0 +1,20 @@
+.card-btn{
+    background-color: lighten($primary, 10%);
+}
+.card-text{
+    color: rgba(225, 225, 225, .9);
+}
+.span-label-toggle2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.presentation{
+    .fa-ellipsis-h{
+        right: 0;
+        top: 0;
+    }
+}
