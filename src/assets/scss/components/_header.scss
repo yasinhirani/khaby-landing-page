@@ -55,16 +55,40 @@
 .btn-outline-warning{
   border-radius: 20px;
 }
+.hero-section{
+  width: 400px;
+}
 .hero-text{
-  width: 380px;
+  // width: 380px;
   font-size: 44px;
 }
 .khaby{
-  width: 400px;
+  width: 480px;
   position: absolute;
-  top: -20px;
-  right: 20%;
+  top: -22px;
+  right: 5%;
   img{
     width: 100%;
+  }
+}
+.mail-section{
+  background-color: rgba($color: $white, $alpha: .2);
+  border: 1px solid rgba($color: $white, $alpha: .3);
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  & input[type='email']{
+    outline: 0;
+    &::placeholder{
+      color: $white;
+    }
+  }
+}
+.footer-section{
+  background-color: rgba($color: $white, $alpha: .2);
+  border: 1px solid rgba($color: $white, $alpha: .3);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  h3{
+    width: 200px;
   }
 }

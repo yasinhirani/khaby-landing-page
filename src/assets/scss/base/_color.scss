@@ -3,24 +3,28 @@ $gray-500: #adb5bd;
 // Theme colors
 $primary: #0e0216;
 $secondary: #f3f2f9;
-$danger: #e54b1c;
+$danger: #c81016;
 $success:#78cc87;
-$info: #325b9b;
+$info: #236ede;
 $warning: #f6c94a;
-$primary-light: lighten($primary, 30%);
+$orange: #d95e34;
+$pink: #e56393;
+// $primary-light: lighten($primary, 30%);
 
 // Theme Map
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
     "danger": $danger,
-    "danger-light": lighten($danger, 30%),
+    // "danger-light": lighten($danger, 30%),
     "gray-500": $gray-500,
-    "primary-light": $primary-light,
+    // "primary-light": $primary-light,
     "success": $success,
-    "success-light": lighten($success, 30%),
+    "orange": $orange,
+    // "success-light": lighten($success, 30%),
     "info": $info,
-    "info-light": lighten($info, 30%),
+    "pink": $pink,
+    // "info-light": lighten($info, 30%),
     'warning': $warning,
-    "warning-light": lighten($warning, 25%),
+    // "warning-light": lighten($warning, 25%),
 );
